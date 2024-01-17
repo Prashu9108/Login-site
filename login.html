@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+        <center>
+            <h3>Welcome back to our chat app</h3>
+        </center>
+            <form>
+                <label for="email">Email Address</label> <br>
+                <input type="email" name="email" id="email" required placeholder="Enter Your email"> <br>
+
+                <label for="password">Password</label> <br>
+                <input type="password" name="password" id="password" required placeholder="Create Password"> <br>
+                <input type="checkbox" id="showPass"  onchange="togglePassword()"> <label for="showPass">Show Password</label> <br>
+
+                <button type="button">Sign in<br> <small>To Unlimited Features</small> </button>
+                <small>you don't have Account? <a href="./index.html">create Acount</a></small>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
